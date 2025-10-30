@@ -1,0 +1,35 @@
+{
+  "name": "aura-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test-api.js",
+    "test:medicine": "node test-medicine-api.js",
+    "test:ai": "node test-ai-api.js",
+    "test:shivaay": "node test-shivaay-api.js",
+    "test:all": "node test-api.js && node test-medicine-api.js && node test-ai-api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "Aura Backend API - Healthcare application with AI integration",
+  "dependencies": {
+    "@google-cloud/dialogflow-cx": "^5.4.0",
+    "@google-cloud/speech": "^7.2.1",
+    "@google-cloud/translate": "^9.2.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.2",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
