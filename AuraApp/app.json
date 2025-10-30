@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Aura",
+    "slug": "aura-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#3498db"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#3498db"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
